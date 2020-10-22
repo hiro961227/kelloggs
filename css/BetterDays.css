@@ -1,0 +1,268 @@
+@import url("common.css");
+main {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+main .page0 {
+  padding-top: 15%;
+  background: #cbcac9;
+}
+
+main .b_g_i {
+  width: 50%;
+  position: relative;
+  z-index: 50;
+}
+
+main .b_g_i span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+}
+
+main .b_g_i span:nth-of-type(1) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 110%;
+  top: -200px;
+}
+
+main .b_g_i span:nth-of-type(1) img {
+  width: 450px;
+}
+
+main .b_g_i span:nth-of-type(2) {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 165%;
+  top: 120px;
+}
+
+main .b_g_i span:nth-of-type(2) img {
+  width: 450px;
+}
+
+main .b_g_i span:nth-of-type(3) {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 140%;
+  top: 350px;
+}
+
+main .b_g_i span:nth-of-type(3) img {
+  width: 400px;
+}
+
+main .page1 {
+  width: 100%;
+  height: 750px;
+  margin: 0 auto;
+  background: #cbcac9;
+  position: relative;
+}
+
+main .page1 .item_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+main .page1 .item_list .ticker_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  font-family: 'Anton', sans-serif;
+  font-size: 200px;
+  font-weight: 300;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2b292d;
+  color: transparent;
+  -webkit-animation: gogo 20s infinite linear;
+          animation: gogo 20s infinite linear;
+}
+
+@-webkit-keyframes gogo {
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes gogo {
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+main .page1 h1 {
+  width: 100%;
+  position: absolute;
+  left: 28%;
+  top: 37%;
+  font-weight: 100;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 50px;
+}
+
+main .page1 a img {
+  width: 650px;
+  position: absolute;
+  left: 35%;
+  top: 44%;
+}
+
+main .page2 {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: #fa5d57;
+  position: relative;
+}
+
+main .page2 h1 {
+  width: 100%;
+  position: absolute;
+  left: 55%;
+  top: 27%;
+  font-weight: 100;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 50px;
+  z-index: 5;
+}
+
+main .page2 a img {
+  width: 650px;
+  position: absolute;
+  left: 30%;
+  top: 33%;
+}
+
+main .page3 {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: #fee101;
+  position: relative;
+}
+
+main .page3 h1 {
+  width: 100%;
+  position: absolute;
+  left: 28%;
+  top: 25%;
+  font-weight: 100;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 50px;
+}
+
+main .page3 a img {
+  width: 650px;
+  position: absolute;
+  left: 32%;
+  top: 35%;
+}
+
+main .page4 {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: #deceba;
+  position: relative;
+}
+
+main .page4 h1 {
+  width: 100%;
+  position: absolute;
+  left: 55%;
+  top: 25%;
+  font-weight: 100;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 50px;
+}
+
+main .page4 a img {
+  width: 650px;
+  position: absolute;
+  left: 33%;
+  top: 33%;
+}
+
+.footer_top {
+  height: 100px;
+  background: #2b292d;
+}
+
+footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+footer article {
+  height: 350px;
+  background: #2b292d;
+}
+
+footer article .cu_m {
+  font-family: 'Gothic A1', sans-serif;
+  padding-left: 50px;
+}
+
+footer article .cu_m strong {
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+footer article .cu_m span {
+  font-family: 'Gothic A1', sans-serif;
+  color: #fff;
+}
+
+footer article .cu_m p {
+  white-space: pre-line;
+  margin: 0;
+  font-family: 'Gothic A1', sans-serif;
+  padding: 15px 0;
+  color: #fff;
+}
+
+footer article .cu_m .under p {
+  font-family: 'Gothic A1', sans-serif;
+  color: #fff;
+  font-size: 8px;
+}
+
+footer article .cu {
+  position: relative;
+  -webkit-transform: rotate(-328deg);
+          transform: rotate(-328deg);
+}
+
+footer article .cu a {
+  font-family: 'Anton', sans-serif;
+  font-size: 150px;
+  position: absolute;
+  right: 130px;
+  bottom: 380px;
+  color: #fff;
+}
+/*# sourceMappingURL=BetterDays.css.map */

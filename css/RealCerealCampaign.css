@@ -1,0 +1,310 @@
+@charset "UTF-8";
+@import url("common.css");
+main {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+main .page0 {
+  padding-top: 15%;
+  background: #deceba;
+}
+
+main .b_g_i {
+  width: 50%;
+  position: relative;
+  z-index: 50;
+}
+
+main .b_g_i span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+}
+
+main .b_g_i span:nth-of-type(1) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 110%;
+  top: -200px;
+}
+
+main .b_g_i span:nth-of-type(1) img {
+  width: 450px;
+}
+
+main .b_g_i span:nth-of-type(2) {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 165%;
+  top: 120px;
+}
+
+main .b_g_i span:nth-of-type(2) img {
+  width: 450px;
+}
+
+main .b_g_i span:nth-of-type(3) {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 140%;
+  top: 350px;
+}
+
+main .b_g_i span:nth-of-type(3) img {
+  width: 400px;
+}
+
+main .page1 {
+  width: 100%;
+  margin: 0 auto;
+  background: #deceba;
+  position: relative;
+  padding-bottom: 5%;
+}
+
+main .page1 .item_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+main .page1 .item_list .ticker_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 200px;
+  font-weight: 300;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2b292d;
+  color: transparent;
+  -webkit-animation: gogo 20s infinite linear;
+          animation: gogo 20s infinite linear;
+}
+
+@-webkit-keyframes gogo {
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes gogo {
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+main .page1 .ist {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 29%;
+  top: 25%;
+  background: #000;
+}
+
+main .page1 .ist a {
+  width: 100%;
+}
+
+main .page1 .ist a img {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  width: 400px;
+}
+
+main .page1 .ist a span:after {
+  content: '▶';
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d31045;
+  border-radius: 100%;
+  background: #d31045;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  z-index: 5;
+}
+
+main .page1 .ist_add {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 23%;
+}
+
+main .page1 .ist_add span {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main .page1 .ist_add p {
+  white-space: pre-line;
+  text-align: center;
+}
+
+main .page2 {
+  width: 100%;
+  margin: 0 auto;
+  background: #deceba;
+}
+
+main .page2 dl {
+  width: 80%;
+  margin: 0 auto;
+  white-space: pre-line;
+  text-align: center;
+}
+
+main .page2 dl dt {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .page2 dl dd {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+main .page2 .btm_w {
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2%;
+}
+
+main .page2 .btm_w .btm_w_w {
+  padding-left: 5%;
+}
+
+main .page2 .btm_w .btm_w_w p {
+  white-space: pre-line;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+main .page3 {
+  width: 100%;
+  margin: 0 auto;
+  background: #deceba;
+  padding-top: 2%;
+}
+
+main .page3 h1 {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+
+main .page4 {
+  width: 100%;
+  margin: 0 auto;
+  background: #deceba;
+  padding: 2% 40%;
+  text-align: center;
+}
+
+.footer_top {
+  height: 100px;
+  background: #2b292d;
+}
+
+footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+footer article {
+  height: 350px;
+  background: #2b292d;
+}
+
+footer article .cu_m {
+  font-family: 'Gothic A1', sans-serif;
+  padding-left: 50px;
+}
+
+footer article .cu_m strong {
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+footer article .cu_m span {
+  font-family: 'Gothic A1', sans-serif;
+  color: #fff;
+}
+
+footer article .cu_m p {
+  white-space: pre-line;
+  margin: 0;
+  font-family: 'Gothic A1', sans-serif;
+  padding: 15px 0;
+  color: #fff;
+}
+
+footer article .cu_m .under p {
+  font-family: 'Gothic A1', sans-serif;
+  color: #fff;
+  font-size: 8px;
+}
+
+footer article .cu {
+  position: relative;
+  -webkit-transform: rotate(-328deg);
+          transform: rotate(-328deg);
+}
+
+footer article .cu a {
+  font-family: 'Anton', sans-serif;
+  font-size: 150px;
+  position: absolute;
+  right: 130px;
+  bottom: 380px;
+  color: #fff;
+}
+/*# sourceMappingURL=RealCerealCampaign.css.map */

@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@import url('common.css');
+
+
+
+main{
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+    .page0{
+        padding-top:25%;
+        background:#fef3d7;
+    }
+    .b_g_i{
+        width:50%;
+        position: relative;
+        z-index:50;
+        
+        span{            position: absolute;
+            right:0; top:0;
+            filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+            
+        }
+        span:nth-of-type(1){
+            transform: rotate( 30deg );
+            display:flex;
+            left:110%; top:-200px;
+            img{width:450px;}
+        }
+        span:nth-of-type(2){
+            transform: rotate( -30deg );
+            display:flex;
+            left:165%; top:120px;
+            img{width:450px;}
+        }
+        span:nth-of-type(3){
+            transform: rotate( -20deg );
+            display:flex;
+            left:140%; top:350px;
+            img{width:400px;}
+        }
+    }
+    .page1{
+        width:100%;
+        background:#fef3d7;
+        white-space:pre-line;
+        padding-bottom:32%;
+        padding-left:10%;
+        position: relative;
+        
+        .bg_w{
+            width:100%;
+            display:inline-block;
+            white-space:nowrap;
+            position: absolute;
+            left:0; bottom:70%;
+
+            font-family: 'Anton', sans-serif;
+            font-size:250px;
+            transform:rotate(-345deg);
+            .bg_w_list{          
+                
+                display: flex;
+                white-space: nowrap;
+            
+                animation:gogo 30s infinite linear;
+            
+                .ticker_item{}
+                
+                @keyframes gogo{
+                    100% {transform: translateX(-100%);}
+                }
+            }
+        }
+        .bg_w_k{
+            position: absolute;
+            left:10%; top:36%;
+            display:flex;
+            
+            white-space:pre-line;
+            span{
+                font-family: 'Gothic A1', sans-serif;
+                color:#d31045;
+                padding:50px 15px;
+                font-size:50px;
+            }
+            p{
+                font-family: 'Jua', sans-serif;
+                font-size:30px;
+            }
+        }
+    }
+    .page2{
+        width:100%;
+        margin:0 auto;
+        padding-top:150px;
+        overflow: hidden;
+        background:#a27f50;
+        .left_img{
+            width:50%;
+            float:left;            
+            .img_top_l{
+                display:block;
+                width:50%;
+                margin:0 auto;
+                img{width:650px;}
+                span{
+                    padding-top:15px;
+                    font-family: 'Anton', sans-serif;
+                    display:block;
+                    margin:0 auto;
+                    text-align:center;
+                }
+            }
+            .img_btm{
+                display:flex;
+                padding-bottom:150px;
+                .img_btm_l{
+                    width:50%;
+                    text-align:center;
+                    img{width:350px;}
+                    span{ 
+                        text-align:center;
+                        padding-top:15px;
+                        font-family: 'Anton', sans-serif;
+                        width:100%;
+                        display:block;
+                        margin:0 auto;
+                    }
+                }
+                .img_btm_2{
+                    width:50%;
+                    text-align:center;
+                    img{width:350px;}
+                    span{
+                        text-align:center;
+                        font-family: 'Anton', sans-serif;
+                        padding-top:15px;
+                        width:100%;
+                        display:block;
+                        margin:0 auto;
+                    }
+                }
+            }
+        }
+        .right_w{
+            width:50%;
+            float:right;
+            
+            h2{
+                padding-top:15%;
+                font-size:55px;
+                font-family: 'Anton', sans-serif;
+            }
+            h3{
+                padding-left:15%;
+                font-size:55px;
+                font-family: 'Anton', sans-serif;
+            }
+            p{
+                padding-top:5%;
+                line-height:2;
+                font-weight:600;
+                font-size:18px;
+                white-space: pre-line;
+                font-family: 'Gothic A1', sans-serif;
+            }
+        }
+    }
+
+    .page3{
+        padding:80px 0;
+        width:100%;
+        background:#505e20;
+
+        h1{
+            color:#fff;
+            font-family: 'Anton', sans-serif;
+            padding:30px 0 20px 0;
+            font-size:55px;
+            text-align: center;
+        }
+        .mid_img{
+            width:100%;
+            margin: 0 auto;
+            text-align: center;
+            display:flex;
+            justify-content: space-around;
+            white-space: pre-line;
+            font-family: 'Gothic A1', sans-serif;
+            font-weight: 600;
+            padding-bottom:50px;
+            .num1{
+                width:25%;
+                margin-right:-20%;
+                img{}
+                p{}
+                span{}
+            }
+            .num2{
+                width:25%;
+                margin-right:-20%;
+                img{}
+                p{}
+                span{}
+            }
+            .num3{
+                width:25%;
+                img{}
+                p{}
+                span{}
+            }
+        }
+        .main_w{
+            width:100%;
+            margin:0 auto;
+            text-align: center;
+            padding-bottom:60px;
+            p{
+                white-space: pre-line;
+                font-family: 'Gothic A1', sans-serif;
+                font-weight: 600;
+                font-size:18px;
+                line-height: 2;
+            }
+        }
+        
+    }
+    .page4{
+        width:100%;
+        background:#0091d6;
+        padding: 100px 0;
+        h3{
+            font-family: 'Anton', sans-serif;
+            padding:30px 0 20px 0;
+            font-size:55px;
+            text-align: center;
+        }
+        a{
+            width:100%;
+            display:block;
+            text-align: center;
+            img{
+                width:600px;
+                padding-top:80px;
+            }
+        }
+    }
+    .page5{
+        width:100%;
+        background:#411b0e;
+        padding: 100px 0;
+        h3{
+            color:#fff;
+            font-family: 'Anton', sans-serif;
+            padding:30px 0 20px 0;
+            font-size:55px;
+            text-align: center;
+        }
+        a{
+            width:100%;
+            display:block;
+            text-align: center;
+            img{
+                width:600px;
+                padding-top:80px;
+            }
+        }
+    }
+}
+
+
+.footer_top{        
+    height:100px;
+    background:#2b292d;
+}
+footer{
+    width:100%;
+    overflow: hidden;
+
+    article{
+        height:350px;
+        background:#2b292d;        
+        .cu_m{  
+            font-family: 'Gothic A1', sans-serif;
+            padding-left:50px;
+            strong{
+                font-size:40px;
+                color:#fff;
+                padding-bottom:20px;
+            }
+            span{
+                font-family: 'Gothic A1', sans-serif;
+                color:#fff;
+            }
+            p{
+                white-space:pre-line;
+                margin:0;
+                font-family: 'Gothic A1', sans-serif;
+                padding:15px 0;
+                color:#fff;
+            }            
+            .under{
+                p{
+                    font-family: 'Gothic A1', sans-serif;
+                    color:#fff;
+                    font-size:8px;
+                }
+            }
+        }
+        .cu{
+            position: relative;            
+            transform: rotate(-328deg);
+            a{
+                font-family: 'Anton', sans-serif;
+                font-size:150px;
+                position: absolute;
+                right:130px; bottom:380px;
+                color:#fff;
+            }
+        }
+    }
+}

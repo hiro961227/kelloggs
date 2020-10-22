@@ -1,0 +1,673 @@
+@charset "UTF-8";
+@import url('common.css');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Gothic+A1:wght@400;600;900&family=Jua&family=Roboto+Condensed:wght@400;700&display=swap');
+
+html,body,div,h1,h2,h3,h4,h5,h6,p,a{
+    margin:0;
+    padding:0;
+    border:0;
+}
+ul,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+a{text-decoration: none;}
+
+.menu_1{
+    position: fixed;
+    left:0; top:0;
+    overflow: hidden;
+    z-index: 3;
+    #header{
+        width:100%; height:initial;
+        overflow: hidden;
+        
+        .main_content{
+            width:300px;
+            display:block;
+            position: fixed;
+            left:0; top:0;
+            .menu_1_1{
+                width:100%;
+                height:100%;
+                background-color:#fff;
+                
+                
+                .main_header{
+                    width:300px;
+                    display:flex;
+                    justify-self:center;
+                    align-items: center;
+                    padding-left: 20px;
+                    .header_img{
+                        a{
+                            display:flex;
+                            min-width:125px;
+                            max-width:250px;
+                            img{
+                                padding-left:5px;
+                                width:130%;
+                            }
+                        }
+                    }
+                    .main_menu{
+                        width:100%;
+                        margin:0 auto;
+                        padding-left: 3rem;
+                        background-color: transparent;
+                        height: 130px;
+                        display: flex;
+                        z-index: 1;
+                        .outer_circle{
+                            position: relative;
+                            display: flex;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            align-items: center;
+                                    
+                            .inner_circle{
+                                font-family: 'Anton', sans-serif;
+                                font-style: normal;
+                                font-size: 20px;
+                                line-height: 0;
+                                position: absolute;
+                                transition:.5s;
+                                height: 64px;
+                                width: 64px;
+                                z-index: 10;
+                                background-color: #d31045;
+                                color: rgb(255, 255, 255);
+                                top: 50%;
+                                left: 50%;
+                                display: flex;
+                                align-items: center;
+                                border-radius: 50%;
+                                margin: -32px 0px 0px -32px;
+                                
+                                span{
+                                    padding-left:15%;
+                                    color:#fff;
+                                }
+                                span:nth-of-type(1){display:block;}
+                                span:nth-of-type(2){display:none;}
+                            }                        
+                        }
+                        .outer_circle:after{
+                            content: "";
+                            width: 80px;
+                            height: 80px;
+                            display: block;
+                            border-radius: 100%;
+                            border-width: 1px;
+                            border-style: dashed;
+                            border-color: #d31045;
+                            border-image: initial;
+            
+                            animation: orbit 10s linear infinite;
+                            }
+                            @keyframes orbit{
+                                0% {transform:  rotate(0) ;}
+                                100% {transform: rotate(360deg);}
+                            }
+                            
+                    }
+                }
+            }
+            .menu_1_2.active{transform: translateX(0%);}
+            .menu_1_2{
+                width:100%;
+                height:100vh;
+                transform: translateX(-100%);
+                transition: transform .5s ease-out;
+                background-color: #FFFFFF;
+                .con_1{
+                    width:100%;
+                    height:100%;
+                    padding-top:35%;
+                    padding-left: 20px;
+                    ul{                
+                        li{
+                            padding-bottom:12px;
+                            a{                        
+                                font-size:32px;
+                                font-family: 'Anton', sans-serif;
+                                color:#2b292d;
+                                position: relative;
+                            }
+                            a:after{
+                                content:'';
+                                height:2px;
+                                background-color:#2b292d;
+                                width:0%;
+                                position: absolute;
+                                left:0%; bottom:-2px;
+                                transition:.5s;
+                            }
+                            a:hover:after{
+                                width:100%;
+                                left:0;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .main_main.active{transform: translateX(calc(0% + 300px));}
+        .main_main{
+            width:calc(100% - 300px);
+            height:100%;
+            display:flex;
+            flex-wrap: wrap;
+            position: fixed;
+            left:0; top:0;
+            transition:.7s;
+            transform: translateX(150%);
+            .main_products{
+                width:auto;
+                overflow:auto;  
+                display:flex;
+                flex-wrap:wrap;
+    
+                .item_list,.item_name{color:#2b292d;}
+                .item_img.on{transform: translateX(70%);}
+                .item_name.on{transform:translate(0%);}
+                
+                .classic_main{
+                    width:50%;
+                    height:35%;
+                    background:#0090d5;
+                    
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    position: relative;
+                    overflow:hidden;
+                    
+                    .classic_1{                    
+                        width:100%; height:100%;
+                        
+                        .item_list{
+                            display:flex;
+                            white-space:nowrap;
+                            padding-top:30px;
+                            transform:rotate(15deg);
+                            z-index:10;
+                            .ticker_item{
+                                display: flex;
+                                white-space: nowrap;
+    
+                                font-family: 'Anton', sans-serif;
+                                font-size:200px;
+                                
+                                animation:gogo 20s infinite linear;
+    
+                                @keyframes gogo{
+                                    100% {transform: translateX(-100%);}
+                                }
+                            }
+                        }
+                        .item_img{
+                            position: absolute;
+                            left:15%; top:-18%;
+                            transition:transform .5s ease-out;
+    
+                            z-index:5;
+                            .field_item{
+                                width:100%;
+                                filter: drop-shadow(5px 20px 5px rgba(0,0,0,0.3));
+                                    img{width:100%;}
+                                }
+                        }
+                        
+                        .item_name{
+                            padding:0 0 1.5rem 1.5rem;
+                            position: absolute;
+                            bottom:-10px;
+                            left:10px;
+                            transform:translateX(-120%);
+                            transition:transform .5s ease-out;
+                            span{
+                                padding-left:25px;
+                                font-size:30px;
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }
+                        
+                    }
+                }
+                .classic_main:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    background-color: inherit;
+                    transition:transform .8s ease-out;
+                }
+                .classic_main.on:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    transform:translate(110%);
+                }
+                .choco_main{
+                    width:50%;
+                    height:35%;
+                    background:#411b0e;
+                    
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    position: relative;
+                    overflow:hidden;
+                    
+                    .classic_1{                    
+                        width:100%; height:100%;
+                        
+                        .item_list{
+                            display:flex;
+                            white-space:nowrap;
+                            padding-top:30px;
+                            transform:rotate(15deg);
+                            .ticker_item{
+                                display: flex;
+                                white-space: nowrap;
+    
+                                font-family: 'Anton', sans-serif;
+                                font-size:200px;
+                                
+                                animation:gogo 20s infinite linear;
+    
+                                @keyframes gogo{
+                                    100% {transform: translateX(-100%);}
+                                }
+                            }
+                        }
+                        .item_img{
+                            position: absolute;
+                            left:15%; top:-18%;
+                            transition:transform .5s ease-out;
+    
+                            z-index:5;
+                            .field_item{
+                                width:100%;
+                                filter: drop-shadow(5px 20px 5px rgba(0,0,0,0.3));
+                                    img{width:100%;}
+                                }
+                                img:hover{
+                                    transform: scaleX(-100%);
+                                }
+                        }
+                        .item_name{
+                            padding:0 0 1.5rem 1.5rem;
+                            position: absolute;
+                            bottom:-10px;
+                            left:10px;
+                            transform:translate(-120%);
+                            transition:transform .5s ease-out;
+                            span{
+                                padding-left:25px;
+                                font-size:30px;
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }
+                    }
+                }
+                .choco_main:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    background-color: inherit;
+                    transition:transform .8s ease-out;
+                }
+                .choco_main.on:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    transform:translate(110%);
+                }
+                .granola_main{
+                    width:50%;
+                    height:35%;
+                    background:#505e20;
+                    
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    position: relative;
+                    overflow:hidden;
+                    
+                    .classic_1{                    
+                        width:100%; height:100%;
+                        
+                        .item_list{
+                            display:flex;
+                            white-space:nowrap;
+                            padding-top:30px;
+                            transform:rotate(15deg);
+                            .ticker_item{
+                                display: flex;
+                                white-space: nowrap;
+    
+                                font-family: 'Anton', sans-serif;
+                                font-size:200px;
+                                
+                                animation:gogo 20s infinite linear;
+    
+                                @keyframes gogo{
+                                    100% {transform: translateX(-100%);}
+                                }
+                            }
+                        }
+                        .item_img{
+                            position: absolute;
+                            left:15%; top:-18%;
+                            transition:transform .5s ease-out;
+    
+                            z-index:5;
+                            .field_item{
+                                width:100%;
+                                filter: drop-shadow(5px 20px 5px rgba(0,0,0,0.3));
+                                    img{width:100%;}
+                                }
+                                img:hover{
+                                    transform: scaleX(-100%);
+                                }
+                        }
+                        .item_name{
+                            padding:0 0 1.5rem 1.5rem;
+                            position: absolute;
+                            bottom:-10px;
+                            left:10px;
+                            transform:translate(-120%);
+                            transition:transform .5s ease-out;
+                            span{
+                                padding-left:25px;
+                                font-size:30px;
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }
+                    }
+                }
+                .granola_main:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    background-color: inherit;
+                    transition:transform .8s ease-out;
+                }
+                .granola_main.on:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    transform:translate(110%);
+                }
+                .protein_main{                    
+                    width:50%;
+                    height:35%;
+                    background:#202471;
+                    
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    position: relative;
+                    overflow:hidden;
+                    
+                    .classic_1{                    
+                        width:100%; height:100%;
+                        
+                        .item_list{
+                            display:flex;
+                            white-space:nowrap;
+                            padding-top:30px;
+                            transform:rotate(15deg);
+                            .ticker_item{
+                                display: flex;
+                                white-space: nowrap;
+    
+                                font-family: 'Anton', sans-serif;
+                                font-size:200px;
+                                
+                                animation:gogo 20s infinite linear;
+    
+                                @keyframes gogo{
+                                    100% {transform: translateX(-100%);}
+                                }
+                            }
+                        }
+                        .item_img{
+                            position: absolute;
+                            left:15%; top:-18%;
+                            transition:transform .5s ease-out;
+                            z-index:5;
+                            .field_item{
+                                width:100%;
+                                filter: drop-shadow(5px 20px 5px rgba(0,0,0,0.3));
+                                    img{width:100%;}
+                                }
+                                img:hover{
+                                    transform: scaleX(-100%);
+                                }
+                        }
+                        .item_name{
+                            padding:0 0 1.5rem 1.5rem;
+                            position: absolute;
+                            bottom:-10px;
+                            left:10px;
+                            transform:translate(-120%);
+                            transition:transform .5s ease-out;
+                            span{
+                                padding-left:25px;
+                                font-size:30px;
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }
+                    }                    
+                }
+                .protein_main:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    background-color: inherit;
+                    transition:transform .8s ease-out;
+                }
+                .protein_main.on:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    transform:translate(110%);
+                }
+                .grain_main{
+                    width:50%;
+                    height:35%;
+                    background:#a27f50;
+                    
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    position: relative;
+                    overflow:hidden;
+                    
+                    .classic_1{                    
+                        width:100%; height:100%;
+                        
+                        .item_list{
+                            display:flex;
+                            white-space:nowrap;
+                            padding-top:30px;
+                            transform:rotate(15deg);
+                            .ticker_item{
+                                display: flex;
+                                white-space: nowrap;
+    
+                                font-family: 'Anton', sans-serif;
+                                font-size:200px;
+                                
+                                animation:gogo 20s infinite linear;
+    
+                                @keyframes gogo{
+                                    100% {transform: translateX(-100%);}
+                                }
+                            }
+                        }
+                        .item_img{
+                            position: absolute;
+                            left:15%; top:-18%;
+                            transition:transform .5s ease-out;
+    
+                            z-index:5;
+                            .field_item{
+                                width:100%;
+                                filter: drop-shadow(5px 20px 5px rgba(0,0,0,0.3));
+                                    img{width:100%;}
+                                }
+                                img:hover{
+                                    transform: scaleX(-100%);
+                                }
+                        }
+                        .item_name{
+                            padding:0 0 1.5rem 1.5rem;
+                            position: absolute;
+                            bottom:-10px;
+                            left:10px;
+                            transform:translate(-120%);
+                            transition:transform .5s ease-out;
+                            span{
+                                padding-left:25px;
+                                font-size:30px;
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }
+                    }
+                }
+                .grain_main:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    background-color: inherit;
+                    transition:transform .8s ease-out;
+                }
+                .grain_main.on:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    transform:translate(110%);
+                }
+                .engbar_main{
+                    width:50%;
+                    height:35%;
+                    background:#fef3d7;
+                    
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    position: relative;
+                    overflow:hidden;
+                    
+                    .classic_1{                    
+                        width:100%; height:100%;
+                        
+                        .item_list{
+                            display:flex;
+                            white-space:nowrap;
+                            padding-top:30px;
+                            transform:rotate(15deg);
+                            .ticker_item{
+                                display: flex;
+                                white-space: nowrap;
+    
+                                font-family: 'Anton', sans-serif;
+                                font-size:200px;
+                                
+                                animation:gogo 20s infinite linear;
+    
+                                @keyframes gogo{
+                                    100% {transform: translateX(-100%);}
+                                }
+                            }
+                        }
+                        .item_img{
+                            position: absolute;
+                            left:15%; top:-18%;
+                            transition:transform .5s ease-out;
+    
+                            z-index:5;
+                            .field_item{
+                                width:100%;
+                                filter: drop-shadow(5px 20px 5px rgba(0,0,0,0.3));
+                                    img{width:100%;}
+                                }
+                                img:hover{
+                                    transform: scaleX(-100%);
+                                }
+                        }
+                        .item_name{
+                            padding:0 0 1.5rem 1.5rem;
+                            position: absolute;
+                            bottom:-10px;
+                            left:10px;
+                            transform:translate(-120%);
+                            transition:transform .5s ease-out;
+                            span{
+                                padding-left:25px;
+                                font-size:30px;
+                                font-family: 'Anton', sans-serif;
+                            }
+                        }
+                    }
+                }
+                .engbar_main:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    background-color: inherit;
+                    transition:transform .8s ease-out;
+                }
+                .engbar_main.on:after{
+                    content:'';
+                    position: absolute;
+                    left:0; top:0;
+                    width:100%;
+                    height:100%;
+                    transform:translate(110%);
+                }
+            }
+        }
+    }
+}
+
