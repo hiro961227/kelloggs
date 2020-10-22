@@ -1,4 +1,5 @@
 @import url("common.css");
+@import url("label.css");
 main {
   width: 100%;
   overflow: hidden;
@@ -207,7 +208,6 @@ main .main_c1 .page1_sub p {
 .main_c3 .ing_t p {
   padding-top: 15px;
   font-size: 15px;
-  color: #fff;
 }
 
 .main_c3 .ing_t table {

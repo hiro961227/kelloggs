@@ -1,0 +1,15 @@
+label{
+    margin:-20px; padding:0; display:inline-block; opacity: 0;}
+.main_img{z-index: 2;}
+span{
+    @keyframes labelAni {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0px);
+        }
+    }
+}

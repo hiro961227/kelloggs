@@ -1,4 +1,5 @@
 @import url("common.css");
+@import url("label.css");
 main {
   width: 100%;
   overflow: hidden;
@@ -43,6 +44,7 @@ main .main_c1 .page1 .page1_2 {
   display: block;
   margin-top: -120px;
   padding-left: 30%;
+  color: #d31045;
 }
 
 main .main_c1 .page1_sub {
@@ -77,6 +79,7 @@ main .main_c1 .page1_sub p {
   font-size: 250px;
   -webkit-transform: rotate(-345deg);
           transform: rotate(-345deg);
+  color: #d31045;
 }
 
 .main_c2 .bg_w .ani_bg_list {
@@ -210,6 +213,7 @@ main .main_c1 .page1_sub p {
 .main_c3 .ing_t p {
   padding-top: 15px;
   font-size: 15px;
+  color: #d31045;
 }
 
 .main_c3 .ing_t table {

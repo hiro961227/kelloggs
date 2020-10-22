@@ -15,12 +15,12 @@ main{
     .b_g_i{
         width:50%;
         position: relative;
-        z-index:50;
         
-        span{            position: absolute;
+        span{            
+            position: absolute;
             right:0; top:0;
             filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-            
+            z-index: 1;
         }
         span:nth-of-type(1){
             transform: rotate( 30deg );

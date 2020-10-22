@@ -1,0 +1,37 @@
+label {
+  margin: -20px;
+  padding: 0;
+  display: inline-block;
+  opacity: 0;
+}
+
+.main_img {
+  z-index: 2;
+}
+
+@-webkit-keyframes labelAni {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes labelAni {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+/*# sourceMappingURL=label.css.map */

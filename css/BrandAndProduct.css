@@ -1,10 +1,13 @@
 @import url("common.css");
+@import url("label.css");
 main {
   width: 100%;
   overflow: hidden;
   background: #0091d6;
   font-family: 'Gothic A1', sans-serif;
   position: relative;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 main .main_img {
