@@ -300,6 +300,10 @@ main{
                 100% {transform:scaleX(0.9);}
             }
         }
+        .page1_top1{
+            height:100px;
+            background:#0090d5;
+        }
         .clsc_c1{
             height:800px;
             margin:0 auto;
@@ -376,7 +380,7 @@ main{
                     }
                 }
                 a:nth-of-type(1){
-                    left:47%; top:12%;
+                    left:47%; top:16%;
                     opacity: 0;
                     animation:item .4s .5s linear forwards;
     
@@ -387,7 +391,8 @@ main{
                     }
                 }
                 a:nth-of-type(2){
-                    left:64%; top:13%;opacity: 0;
+                    left:64%; top:17%;
+                    opacity: 0;
                     animation:item .4s .8s linear forwards;
     
                     @keyframes item{
@@ -735,7 +740,7 @@ main{
                     padding:0;
                     margin:0;
                     font-size:0;
-                    transform: rotate( 5deg );
+                    transform: rotate( 8deg );
                     filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
                     img{
                         width:400px;
@@ -746,7 +751,7 @@ main{
                         transform: scale(1.1) rotate(-10deg);
                     }
                 }
-                a:nth-of-type(1){left:59%; top:10%;
+                a:nth-of-type(1){left:57%; top:16%;
                     opacity: 0;
                     animation:item3 .4s .3s linear forwards;
     
@@ -755,7 +760,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(15deg);}
                     }}
-                a:nth-of-type(2){left:73%; top:32%;
+                a:nth-of-type(2){left:72%; top:24%;
                     opacity: 0;
                     animation:item3 .4s .8s linear forwards;
     
@@ -764,7 +769,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(15deg);}
                     }}
-                a:nth-of-type(3){left:41%; top:30%;
+                a:nth-of-type(3){left:43%; top:43%;
                     opacity: 0;
                     animation:item3 .4s .5s linear forwards;
     
@@ -773,7 +778,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(15deg);}
                     }}
-                a:nth-of-type(4){left:54%; top:50%;
+                a:nth-of-type(4){left:59%; top:52%;
                     opacity: 0;
                     animation:item3 .4s 1.1s linear forwards;
     
@@ -1218,7 +1223,7 @@ main{
                         transform: scale(1.1) rotate(10deg);
                     }
                 }
-                a:nth-of-type(1){left:15%; top:22%;
+                a:nth-of-type(1){left:15%; top:30%;
                     opacity: 0;
                     animation:item6 .4s .5s linear forwards;
     
@@ -1227,7 +1232,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(62deg);}
                     }}
-                a:nth-of-type(2){left:26%; top:24%;
+                a:nth-of-type(2){left:26%; top:32%;
                     opacity: 0;
                     animation:item6 .4s .8s linear forwards;
     
@@ -1236,7 +1241,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(62deg);}
                     }}
-                a:nth-of-type(3){left:36%; top:23%;
+                a:nth-of-type(3){left:36%; top:31%;
                     opacity: 0;
                     animation:item6 .4s 1.1s linear forwards;
     
@@ -1245,7 +1250,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(62deg);}
                     }}
-                a:nth-of-type(4){left:37%; top:56%;
+                a:nth-of-type(4){left:37%; top:64%;
                     opacity: 0;
                     animation:item6 .4s 2s linear forwards;
     
@@ -1254,7 +1259,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(62deg);}
                     }}
-                a:nth-of-type(5){left:27%; top:56%;
+                a:nth-of-type(5){left:27%; top:64%;
                     opacity: 0;
                     animation:item6 .4s 1.7s linear forwards;
     
@@ -1263,7 +1268,7 @@ main{
                         100% {opacity: 1;
                             transform: rotate(62deg);}
                     }}
-                a:nth-of-type(6){left:16%; top:58%;
+                a:nth-of-type(6){left:16%; top:66%;
                     opacity: 0;
                     animation:item6 .4s 1.4s linear forwards;
     

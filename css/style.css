@@ -569,6 +569,11 @@ label {
   }
 }
 
+.page1 .page1_top1 {
+  height: 100px;
+  background: #0090d5;
+}
+
 .page1 .clsc_c1 {
   height: 800px;
   margin: 0 auto;
@@ -694,7 +699,7 @@ label {
 
 .page1 .clsc_c1 .a_img1 a:nth-of-type(1) {
   left: 47%;
-  top: 12%;
+  top: 16%;
   opacity: 0;
   -webkit-animation: item .4s .5s linear forwards;
           animation: item .4s .5s linear forwards;
@@ -724,7 +729,7 @@ label {
 
 .page1 .clsc_c1 .a_img1 a:nth-of-type(2) {
   left: 64%;
-  top: 13%;
+  top: 17%;
   opacity: 0;
   -webkit-animation: item .4s .8s linear forwards;
           animation: item .4s .8s linear forwards;
@@ -1363,8 +1368,8 @@ label {
   padding: 0;
   margin: 0;
   font-size: 0;
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
   -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
           filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
 }
@@ -1381,8 +1386,8 @@ label {
 }
 
 .page3 .clsc_c3 .a_img3 a:nth-of-type(1) {
-  left: 59%;
-  top: 10%;
+  left: 57%;
+  top: 16%;
   opacity: 0;
   -webkit-animation: item3 .4s .3s linear forwards;
           animation: item3 .4s .3s linear forwards;
@@ -1411,8 +1416,8 @@ label {
 }
 
 .page3 .clsc_c3 .a_img3 a:nth-of-type(2) {
-  left: 73%;
-  top: 32%;
+  left: 72%;
+  top: 24%;
   opacity: 0;
   -webkit-animation: item3 .4s .8s linear forwards;
           animation: item3 .4s .8s linear forwards;
@@ -1430,8 +1435,8 @@ label {
 }
 
 .page3 .clsc_c3 .a_img3 a:nth-of-type(3) {
-  left: 41%;
-  top: 30%;
+  left: 43%;
+  top: 43%;
   opacity: 0;
   -webkit-animation: item3 .4s .5s linear forwards;
           animation: item3 .4s .5s linear forwards;
@@ -1449,8 +1454,8 @@ label {
 }
 
 .page3 .clsc_c3 .a_img3 a:nth-of-type(4) {
-  left: 54%;
-  top: 50%;
+  left: 59%;
+  top: 52%;
   opacity: 0;
   -webkit-animation: item3 .4s 1.1s linear forwards;
           animation: item3 .4s 1.1s linear forwards;
@@ -2265,7 +2270,7 @@ label {
 
 .page6 .clsc_c6 .a_img6 a:nth-of-type(1) {
   left: 15%;
-  top: 22%;
+  top: 30%;
   opacity: 0;
   -webkit-animation: item6 .4s .5s linear forwards;
           animation: item6 .4s .5s linear forwards;
@@ -2295,7 +2300,7 @@ label {
 
 .page6 .clsc_c6 .a_img6 a:nth-of-type(2) {
   left: 26%;
-  top: 24%;
+  top: 32%;
   opacity: 0;
   -webkit-animation: item6 .4s .8s linear forwards;
           animation: item6 .4s .8s linear forwards;
@@ -2314,7 +2319,7 @@ label {
 
 .page6 .clsc_c6 .a_img6 a:nth-of-type(3) {
   left: 36%;
-  top: 23%;
+  top: 31%;
   opacity: 0;
   -webkit-animation: item6 .4s 1.1s linear forwards;
           animation: item6 .4s 1.1s linear forwards;
@@ -2333,7 +2338,7 @@ label {
 
 .page6 .clsc_c6 .a_img6 a:nth-of-type(4) {
   left: 37%;
-  top: 56%;
+  top: 64%;
   opacity: 0;
   -webkit-animation: item6 .4s 2s linear forwards;
           animation: item6 .4s 2s linear forwards;
@@ -2352,7 +2357,7 @@ label {
 
 .page6 .clsc_c6 .a_img6 a:nth-of-type(5) {
   left: 27%;
-  top: 56%;
+  top: 64%;
   opacity: 0;
   -webkit-animation: item6 .4s 1.7s linear forwards;
           animation: item6 .4s 1.7s linear forwards;
@@ -2371,7 +2376,7 @@ label {
 
 .page6 .clsc_c6 .a_img6 a:nth-of-type(6) {
   left: 16%;
-  top: 58%;
+  top: 66%;
   opacity: 0;
   -webkit-animation: item6 .4s 1.4s linear forwards;
           animation: item6 .4s 1.4s linear forwards;
