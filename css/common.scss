@@ -671,3 +671,161 @@ a{text-decoration: none;}
     }
 }
 
+
+//============media=============//
+
+@media All and (max-width:1160px){
+    //start
+
+    .b_g_3{
+        width:76%;
+        display:flex;
+        div{
+            display:flex;
+            margin:0 auto;
+            padding:0;
+            width:100%; height:140px;
+            font-size:0;
+            div:nth-of-type(1){
+                width:30%; height:250%;
+                margin:0;
+                background:#fad5dd;
+                transform: scaleY(0);
+                transform-origin:top;
+                animation:live3 .3s 1.5s linear forwards;
+
+                @keyframes live3{
+                    100% {transform:scaleY(1);}
+                }
+            }
+            div:nth-of-type(2){
+                margin:0;
+                width:50%;
+                padding:0 0 300px 30px;
+                text-align: left;
+                img{width: 100%; }
+            }
+            div:nth-of-type(3){
+                width:0%;
+                margin:0;
+            }
+            
+            }
+            .story{
+                width:100%;
+                display:block;
+                 text-align: left;
+                padding-top:100px;
+                span{font-size:48px;
+                    font-family: 'Jua', sans-serif;
+
+                    transform: translateX(6rem);
+                    opacity: 0;
+                    animation: live9 .5s 1.3s linear forwards;
+    
+                    @keyframes live9{
+                        100% {transform: translateX(0); opacity: 1;}
+                    }
+                    }
+                p{
+                    font-size:18px;
+                    font-family: 'Gothic A1', sans-serif;
+                    white-space:pre-line;
+                    padding-top:5%;
+
+                    transform: translateY(6rem);
+                    opacity: 0;
+                    animation: live8 .5s 1.5s linear forwards;
+    
+                    @keyframes live8{
+                        100% {transform: translateY(0); opacity: 1;}
+                    }
+                }
+            }
+        }
+
+    
+    .menu_1{
+        width:100%;
+        display:block;
+        #header{
+            width:100%; height: 100%;
+            .main_content{
+                border:1px;
+                .menu_1_1{}
+                .con_1{}
+            }//위드사이즈안잡히는거..
+            .main_content.acitve{
+                width:100%;
+                background: #fff;  
+                
+            }
+            .main_main{
+                width:100%;
+                height: 100%;
+                display:block;
+                transform:translate(250%,530px);
+                .main_products{
+                    width:100%;
+                    height: 100%;
+                    display:block;
+                    .classic_main{
+                        width:100%;
+                        .item_img{
+                            position: absolute;
+                            left:40%;top:20%;
+                            transform:translate(0,0);
+                        }
+                    }
+                    .choco_main{
+                        width:100%;
+                        .item_img{
+                            position: absolute;
+                            left:40%;top:20%;
+                            transform:translate(0,0);
+                        }                           
+                    }
+                    .granola_main{
+                        width:100%;
+                        .item_img{
+                            position: absolute;
+                            left:40%;top:20%;
+                            transform:translate(0,0);
+                        }
+                    }
+                    .protein_main{
+                        width:100%;
+                        .item_img{
+                            position: absolute;
+                            left:40%;top:20%;
+                            transform:translate(0,0);
+                        }
+                    }
+                    .grain_main{
+                        width:100%;
+                        .item_img{
+                            position: absolute;
+                            left:40%;top:20%;
+                            transform:translate(0,0);
+                        }
+                    }
+                    .engbar_main{
+                        width:100%;
+                        .item_img{
+                            position: absolute;
+                            left:40%;top:20%;
+                            transform:translate(0,0);
+                        }
+                    }
+                }
+            }
+            .main_main.active{
+                transform:translate(0%,530px);
+                .main_products{}
+            }
+        }
+    }
+    
+    
+    //end
+}

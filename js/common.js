@@ -31,6 +31,7 @@ $(function(){
                 }                
 
                 allMemu.toggleClass('active');
+                $('.main_content').toggleClass('acitve');
             });                
 
             function menuHover(){
@@ -51,12 +52,10 @@ $(function(){
                 if(leftMenu.hasClass('active')){
                     btn.css('transform','scale(1)');
                     btn.html('MENU').css('justify-content','center');
-                    $('.menu_1').css('z-index','1');
                     allMemu.removeClass('active');
                 }else{
                     btn.css('transform','scale(1.3)');
                     btn.html('CLOSE').css('justify-content','center');
-                    $('.menu_1').css('z-index','10');
                 }
             })
         };

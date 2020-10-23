@@ -32,12 +32,12 @@ $(function(){
     console.log(popAll);
 
     liAll.hover(function(){
-        idx = $(this).index();
-        console.log(idx);
-        popAll.eq(idx).stop().fadeIn(250);
+        // idx = $(this).index();
+        
+        $(this).next().stop().fadeIn(250);
     },function(){
-        idx = $(this).index();
-        popAll.eq(idx).stop().fadeOut(250);
+        // idx = $(this).index();
+        $(this).next().stop().fadeOut(250);
     });
 
 
