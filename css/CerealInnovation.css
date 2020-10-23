@@ -4,11 +4,11 @@ main {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  background: #0091d6;
 }
 
 main .page0 {
   padding-top: 15%;
-  background: #0091d6;
 }
 
 main .b_g_i {
@@ -71,7 +71,6 @@ main .page1 {
   width: 100%;
   padding-bottom: 7%;
   margin: 0 auto;
-  background: #0091d6;
   position: relative;
 }
 
@@ -141,7 +140,6 @@ main .page1 .wit_m p {
 main .page2 {
   width: 100%;
   margin: 0 auto;
-  background: #0091d6;
   padding: 2% 0 10% 0;
 }
 
@@ -196,6 +194,8 @@ main .page2 .type_1 dl dd {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 200;
   line-height: 1.5;
+  padding: 0;
+  margin: 0;
 }
 
 main .page2 .type_2 {
@@ -249,6 +249,8 @@ main .page2 .type_2 dl dd {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 200;
   line-height: 1.5;
+  padding: 0;
+  margin: 0;
 }
 
 .footer_top {

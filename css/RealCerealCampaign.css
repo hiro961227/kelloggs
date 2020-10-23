@@ -5,11 +5,11 @@ main {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  background: #deceba;
 }
 
 main .page0 {
   padding-top: 15%;
-  background: #deceba;
 }
 
 main .b_g_i {
@@ -71,7 +71,6 @@ main .b_g_i span:nth-of-type(3) img {
 main .page1 {
   width: 100%;
   margin: 0 auto;
-  background: #deceba;
   position: relative;
   padding-bottom: 5%;
 }
@@ -179,7 +178,6 @@ main .page1 .ist_add p {
 main .page2 {
   width: 100%;
   margin: 0 auto;
-  background: #deceba;
 }
 
 main .page2 dl {
@@ -229,7 +227,6 @@ main .page2 .btm_w .btm_w_w p {
 main .page3 {
   width: 100%;
   margin: 0 auto;
-  background: #deceba;
   padding-top: 2%;
 }
 
@@ -243,7 +240,6 @@ main .page3 h1 {
 main .page4 {
   width: 100%;
   margin: 0 auto;
-  background: #deceba;
   padding: 2% 40%;
   text-align: center;
 }

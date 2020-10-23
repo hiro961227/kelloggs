@@ -54,6 +54,33 @@
 
 <footer></footer>
 
-
+<script>
+    $(function(){ 
+    //start   
+        var divAll = $('.page0, .page1, .page2, .page3');
+        var secArr = [];
+            
+        divAll.each(function(idx){
+            secArr.push(divAll.eq(idx).offset().top); 
+        });
+    
+        $(window).scroll(function(){
+        $.each(secArr,function(idx){
+            if($(window).scrollTop() >= secArr[0]){
+                $('main').css({
+                    background:"#505e20",
+                    transition:".5s"
+                });
+            }if($(window).scrollTop() >= secArr[1]){
+                $('main').css({background:"#505e20"});
+            }if($(window).scrollTop() >= secArr[2]){
+                $('main').css({background:"#6f7e3c"});
+            }
+        }); 
+        });
+    
+    });
+    </script>
+    
 </body>
 </html>

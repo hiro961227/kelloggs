@@ -90,6 +90,34 @@
 
 <footer></footer>
 
+<script>
+    $(function(){ 
+    //start   
+        var divAll = $('.page0, .page1, .page2');
+        var secArr = [];
+            
+        divAll.each(function(idx){
+            secArr.push(divAll.eq(idx).offset().top); 
+        });
+    
+        $(window).scroll(function(){
+        $.each(secArr,function(idx){
+            if($(window).scrollTop() >= secArr[0]){
+                $('main').css({
+                    background:"#fa5d57",
+                    transition:".5s"
+                });
+            }if($(window).scrollTop() >= secArr[1]){
+                $('main').css({background:"#fa5d57"});
+            }if($(window).scrollTop() >= secArr[2]){
+                $('main').css({background:"#fdadaa"});
+            }
+        }); 
+        });
+    
+    });
+    </script>
+
 
 </body>
 </html>

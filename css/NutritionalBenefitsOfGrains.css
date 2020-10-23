@@ -4,11 +4,11 @@ main {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  background: #a27f50;
 }
 
 main .page0 {
   padding-top: 15%;
-  background: #a27f50;
 }
 
 main .b_g_i {
@@ -71,7 +71,6 @@ main .page1 {
   width: 100%;
   padding-bottom: 7%;
   margin: 0 auto;
-  background: #a27f50;
   position: relative;
 }
 
@@ -143,7 +142,6 @@ main .page2 {
   margin: 0 auto;
   margin-top: -3.5%;
   padding: 0 0 10% 0;
-  background: #a27f50;
   white-space: pre-line;
   text-align: left;
   position: relative;
@@ -208,7 +206,6 @@ main .page3 {
   width: 100%;
   margin: 0 auto;
   padding: 10% 0;
-  background: #a27f50;
   position: relative;
 }
 
@@ -236,7 +233,6 @@ main .page4 {
   width: 100%;
   margin: 0 auto;
   padding: 30% 0 10% 0;
-  background: #a27f50;
 }
 
 main .page4 h2 {

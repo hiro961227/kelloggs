@@ -109,6 +109,38 @@
 
 <footer></footer>
 
+<script>
+    $(function(){ 
+    //start   
+        var divAll = $('.page0, .page1, .page2, .page3, .page4');
+        var secArr = [];
+            
+        divAll.each(function(idx){
+            secArr.push(divAll.eq(idx).offset().top); 
+        });
+    
+        $(window).scroll(function(){
+        $.each(secArr,function(idx){
+            if($(window).scrollTop() >= secArr[0]){
+                $('main').css({
+                    background:"#deceba",
+                    transition:".5s"
+                });
+            }if($(window).scrollTop() >= secArr[1]){
+                $('main').css({background:"#deceba"});
+            }if($(window).scrollTop() >= secArr[2]){
+                $('main').css({background:"#e7dbcc"});
+            }if($(window).scrollTop() >= secArr[3]){
+                $('main').css({background:"#f9f8f7"});
+            }if($(window).scrollTop() >= secArr[4]){
+                $('main').css({background:"#fff"});
+            }
+        }); 
+        });
+    
+    });
+    </script>
+
 
 </body>
 </html>

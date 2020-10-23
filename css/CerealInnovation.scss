@@ -8,9 +8,9 @@ main{
     margin:0 auto;
     overflow: hidden;
     position: relative;
+    background:#0091d6;
     .page0{
         padding-top:15%;
-        background:#0091d6;
     }
     .b_g_i{
         width:50%;
@@ -45,7 +45,6 @@ main{
         width:100%;
         padding-bottom:7%;
         margin:0 auto;
-        background:#0091d6;
         position: relative;
 
         .item_list{
@@ -94,7 +93,6 @@ main{
     .page2{
         width:100%;
         margin:0 auto;
-        background:#0091d6;
         padding:2% 0 10% 0;
         .type_1{
             width:65%;
@@ -136,6 +134,7 @@ main{
                     font-family: 'Gothic A1', sans-serif;
                     font-weight: 200;
                     line-height:1.5;
+                    padding:0; margin:0;
                 }
             }
         }
@@ -179,6 +178,7 @@ main{
                     font-family: 'Gothic A1', sans-serif;
                     font-weight: 200;
                     line-height:1.5;
+                    padding:0; margin:0;
                 }
             }
         }

@@ -4,6 +4,7 @@ main {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  background: #232f73;
 }
 
 main ul li p {
@@ -13,7 +14,6 @@ main ul li p {
 
 main .page0 {
   padding-top: 15%;
-  background: #232f73;
 }
 
 main .b_g_i {
@@ -75,7 +75,6 @@ main .b_g_i span:nth-of-type(3) img {
 main .page1 {
   width: 100%;
   margin: 0 auto;
-  background: #232f73;
   position: relative;
 }
 
@@ -134,7 +133,6 @@ main .page1 .wit_m p {
 
 main .page2 {
   width: 100%;
-  background: #232f73;
   padding-top: 15%;
   position: relative;
 }
@@ -180,7 +178,6 @@ main .page2 .page2_2 img {
 
 main .page3 {
   width: 100%;
-  background: #232f73;
   position: relative;
   padding-top: 40%;
   padding-bottom: 20%;
@@ -195,45 +192,36 @@ main .page3 h1 {
   font-size: 50px;
 }
 
-main .page3 .necessary {
-  position: absolute;
-  left: 15%;
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
-}
-
-main .page3 .necessary img {
-  width: 90px;
-  height: 90px;
-}
-
-main .page3 .necessary2 {
-  position: absolute;
-  left: 0%;
-  -webkit-transform: translateY(-68px);
-          transform: translateY(-68px);
-}
-
-main .page3 .necessary2 img {
-  width: 110px;
-  height: 110px;
-}
-
-main .page3 .necessary3 {
-  position: absolute;
-  left: 0%;
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
-}
-
-main .page3 .necessary3 img {
-  width: 90px;
-  height: 90px;
-}
-
 main .page3 .fact_list {
   width: 80%;
   margin: 0 auto;
+}
+
+main .page3 .fact_list .popup_a {
+  display: none;
+  width: 55%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 22%;
+  top: 25%;
+}
+
+main .page3 .fact_list .popup_a .necessary {
+  margin: 0;
+  padding-top: 3%;
+  font-size: 1.2em;
+}
+
+main .page3 .fact_list .popup_a span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+  font-size: 1em;
+  white-space: pre-line;
+  padding-top: 3%;
 }
 
 main .page3 .fact_list ol {
@@ -246,6 +234,7 @@ main .page3 .fact_list ol {
 main .page3 .fact_list ol .ft_img1 {
   width: 30%;
   text-align: center;
+  padding-top: 50px;
 }
 
 main .page3 .fact_list ol .ft_img1 img {
@@ -257,13 +246,13 @@ main .page3 .fact_list ol .rigth_ft {
   margin-top: -50px;
 }
 
-main .page3 .fact_list ol .rigth_ft .ft_2 {
+main .page3 .fact_list ol .rigth_ft li {
   width: 100%;
   display: block;
   white-space: pre-line;
 }
 
-main .page3 .fact_list ol .rigth_ft .ft_2 p {
+main .page3 .fact_list ol .rigth_ft li p {
   width: 100%;
   display: block;
   text-align: center;
@@ -272,7 +261,7 @@ main .page3 .fact_list ol .rigth_ft .ft_2 p {
   white-space: pre-line;
 }
 
-main .page3 .fact_list ol .rigth_ft .ft_2 span {
+main .page3 .fact_list ol .rigth_ft li span {
   font-size: 18px;
   width: 100%;
   display: block;
@@ -283,26 +272,18 @@ main .page3 .fact_list ol .rigth_ft .ft_2 span {
   white-space: pre-line;
 }
 
-main .page3 .fact_list .ft_l {
+main .page3 .fact_list li {
   width: 100%;
   display: block;
   white-space: pre-line;
   font-size: 18px;
 }
 
-main .page3 .fact_list .ft_l p {
-  width: 100%;
+main .page3 .fact_list li p {
+  width: 80%;
   display: block;
-  text-align: center;
-  color: #fff;
-  line-height: 2;
-  white-space: pre-line;
-}
-
-main .page3 .fact_list .ft_l span {
-  width: 100%;
-  display: block;
-  margin-top: -50px;
+  margin: 0 auto;
+  padding: 0;
   text-align: center;
   color: #fff;
   line-height: 2;

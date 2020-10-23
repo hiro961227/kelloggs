@@ -4,11 +4,11 @@ main {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  background: #505e20;
 }
 
 main .page0 {
   padding-top: 15%;
-  background: #505e20;
 }
 
 main .b_g_i {
@@ -71,7 +71,6 @@ main .page1 {
   width: 100%;
   padding-bottom: 7%;
   margin: 0 auto;
-  background: #505e20;
   position: relative;
 }
 
@@ -140,7 +139,6 @@ main .page1 .wit_m p {
 
 main .page2 {
   width: 100%;
-  background: #505e20;
   padding-bottom: 30%;
   position: relative;
 }
@@ -158,7 +156,6 @@ main .page3 {
   display: flex;
   margin: 0 auto;
   text-align: center;
-  background: #505e20;
   padding-bottom: 10%;
 }
 
