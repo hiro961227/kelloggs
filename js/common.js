@@ -36,7 +36,6 @@ $(function(){
             function menuHover(){
                 menuLine.hover(function(idx){
                     var idx = $(this).index();
-                    console.log(idx);
                     $('.item_img').eq(idx).addClass('on');
                     $('.item_name').eq(idx).addClass('on');
                     menuLine.eq(idx).addClass('on');

@@ -37,19 +37,13 @@ main .main_c1 .page1 {
 main .main_c1 .page1 .page1_1 {
   display: block;
   padding-left: 30%;
+  color: #fff;
 }
 
 main .main_c1 .page1 .page1_2 {
   display: block;
   margin-top: -120px;
   padding-left: 48%;
-}
-
-main .main_c1 .page1 .page1_3 {
-  display: block;
-  margin-top: -120px;
-  padding-left: 26%;
-  color: #fff;
 }
 
 main .main_c1 .page1_sub {
