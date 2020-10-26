@@ -31,15 +31,19 @@ $(function(){
     
     console.log(popAll);
 
-    liAll.hover(function(){
+    liAll.click(function(){
         // idx = $(this).index();
         
         $(this).next().stop().fadeIn(250);
-    },function(){
-        // idx = $(this).index();
-        $(this).next().stop().fadeOut(250);
+        
     });
 
+    $(document).mouseup(function (e){
+        var popup = popAll;
+        if(popup.has(e.target).length === 0){
+            popup.stop().fadeOut(250);
+        }
+    });
 
     //end  
 });
