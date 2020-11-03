@@ -58,4 +58,18 @@ footer article .cu a {
   bottom: 400px;
   color: #fff;
 }
+
+@media All and (max-width: 1160px) {
+  footer {
+    width: 100%;
+  }
+  footer article .cu {
+    width: 100%;
+  }
+  footer article .cu a {
+    font-size: 5.5em;
+    right: 135px;
+    bottom: 250px;
+  }
+}
 /*# sourceMappingURL=common_foot.css.map */

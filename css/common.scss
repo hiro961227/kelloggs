@@ -752,13 +752,26 @@ a{text-decoration: none;}
             width:100%; height: 100%;
             .main_content{
                 border:1px;
-                .menu_1_1{}
-                .con_1{}
-            }//위드사이즈안잡히는거..
+                .menu_1_2{
+                    .con_1{
+                        padding-top:6%;
+
+                    ul{
+                        li{
+                            a:after{
+                                content: '';
+                                display:none;
+                            }
+                        }
+                    }
+                    }
+                }
+                
+            }
             .main_content.acitve{
                 width:100%;
                 background: #fff;  
-                
+                transition:.3s;
             }
             .main_main{
                 width:100%;

@@ -1121,9 +1121,18 @@ a {
   .menu_1 #header .main_content {
     border: 1px;
   }
+  .menu_1 #header .main_content .menu_1_2 .con_1 {
+    padding-top: 6%;
+  }
+  .menu_1 #header .main_content .menu_1_2 .con_1 ul li a:after {
+    content: '';
+    display: none;
+  }
   .menu_1 #header .main_content.acitve {
     width: 100%;
     background: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
   }
   .menu_1 #header .main_main {
     width: 100%;

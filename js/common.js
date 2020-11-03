@@ -53,6 +53,7 @@ $(function(){
                     btn.css('transform','scale(1)');
                     btn.html('MENU').css('justify-content','center');
                     allMemu.removeClass('active');
+                    $('.main_content').removeClass('acitve');
                 }else{
                     btn.css('transform','scale(1.3)');
                     btn.html('CLOSE').css('justify-content','center');

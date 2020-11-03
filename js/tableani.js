@@ -144,6 +144,7 @@ $(function(){
             $('.page6_top').addClass('play');
             $('.page6_top1').addClass('play');
         }if($(window).scrollTop() >= (offT - winH)*1.1){
+            $('.page6_bottom1').addClass('play');
             $('.footer_top').addClass('play');
         }
         

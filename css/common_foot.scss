@@ -54,3 +54,23 @@ footer{
         }
     }
 }
+
+//============media=============//
+
+@media All and (max-width:1160px){
+    //start
+    footer{
+        width:100%;
+        article{
+            .cu{
+                width:100%;
+                a{
+                    font-size:5.5em;
+                    right:135px;bottom:250px;
+                }
+            }
+        }
+        
+    }
+    //end
+}
