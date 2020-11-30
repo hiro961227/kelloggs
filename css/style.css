@@ -14,8 +14,8 @@ main .b_g_i span {
   position: absolute;
   right: 0;
   top: 0;
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
   z-index: 1;
 }
 
