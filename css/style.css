@@ -723,8 +723,8 @@ label {
   font-size: 0;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
 }
 
 .page1 .clsc_c1 .a_img1 a img {
@@ -1078,8 +1078,8 @@ label {
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
   font-size: 0;
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
 }
 
 .page2 .clsc_c2 .a_img2 a img {
@@ -1409,8 +1409,8 @@ label {
   font-size: 0;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
 }
 
 .page3 .clsc_c3 .a_img3 a img {
@@ -1701,8 +1701,8 @@ label {
   position: absolute;
   -webkit-transform: rotate(-5deg);
           transform: rotate(-5deg);
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
 }
 
 .page4 .clsc_c4 .a_img4 a img {
@@ -2013,8 +2013,8 @@ label {
   position: absolute;
   -webkit-transform: rotate(5deg);
           transform: rotate(5deg);
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
 }
 
 .page5 .clsc_c5 .a_img5 a img {
@@ -2294,8 +2294,8 @@ label {
   position: absolute;
   -webkit-transform: rotate(58deg);
           transform: rotate(58deg);
-  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
-          filter: drop-shadow(rgba(0, 0, 0, 0.3) 5px 20px 5px);
+  -webkit-filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 20px 5px rgba(0, 0, 0, 0.3));
 }
 
 .page6 .clsc_c6 .a_img6 a img {
